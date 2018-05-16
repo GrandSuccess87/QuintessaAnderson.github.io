@@ -44,6 +44,32 @@ h6 {
   height: 30rem;
 }
 
+/* Blinking Cursor */
+.typed-cursor {
+  opacity: 1;
+  font-weight: 100;
+  animation: blink .7s infinite;
+      animation-duration: 0.7s;
+      animation-timing-function: ease;
+      animation-delay: 0s;
+      animation-direction: normal;
+      animation-fill-mode: none;
+      animation-iteration-count: infinite;
+      animation-play-state: running;
+      animation-name: blink;
+}
+
+/* .typed-cursor {
+  font-weight: 100;
+  font-size: 30px;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+} */
+
 @media (max-width: 992px) {
   .map {
     height: 75%;
